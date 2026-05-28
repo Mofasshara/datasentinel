@@ -1,0 +1,36 @@
+[project]
+name = "datasentinel-stream"
+version = "0.1.0"
+description = "Real-time streaming data quality monitor for Kafka and Apache Flink"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasentinel-shared",
+    "kafka-python-ng>=2.2",
+    "pyyaml>=6.0",
+    "jsonschema>=4.22",
+    "numpy>=1.26",
+    "scipy>=1.13",
+    "streamlit>=1.35",
+    "plotly>=5.22",
+]
+
+[project.optional-dependencies]
+flink = ["apache-flink>=1.17"]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.4",
+    "mypy>=1.10",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/datasentinel_stream"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
