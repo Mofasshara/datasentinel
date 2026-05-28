@@ -2,7 +2,7 @@
 
 **Agentic data reliability platform** — semantic validation for AI-generated records, self-healing pipeline agents, and real-time streaming data quality.
 
-[![Tests](https://img.shields.io/badge/tests-67%2F67%20passing-brightgreen)](https://github.com/yourusername/datasentinel/actions)
+[![Tests](https://img.shields.io/badge/tests-67%2F67%20passing-brightgreen)](https://github.com/Mofasshara/datasentinel/actions)
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
@@ -171,7 +171,7 @@ rules = NLPRuleGenerator().generate(
 **Requirements:** Python 3.11+, Docker, [`uv`](https://docs.astral.sh/uv/)
 
 ```bash
-git clone https://github.com/yourusername/datasentinel
+git clone https://github.com/Mofasshara/datasentinel
 cd datasentinel
 
 # Install all packages

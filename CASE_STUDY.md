@@ -107,4 +107,4 @@ A portable PyFlink library for statistical anomaly detection on Kafka streams. R
 
 LangGraph · Claude API (prompt caching) · Welford's algorithm · Flink PyFlink · Apache Kafka · DuckDB · PostgreSQL · Great Expectations · Sentence Transformers · FastAPI · Streamlit · uv workspaces · Docker Compose
 
-**GitHub:** [github.com/yourusername/datasentinel](https://github.com/yourusername/datasentinel)
+**GitHub:** [github.com/Mofasshara/datasentinel](https://github.com/Mofasshara/datasentinel)
